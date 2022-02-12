@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Base Converter</h1>
+    <p>Select and Swap the Number System you want to convert</p>
+    <div class="container">
+        <div class="systemOne">
+            <h3>Base1:</h3>
+            <select id="digit_one" >
+                <option value="binary" selected>Binary</option>
+                <option value="decimal">Decimal</option>
+                <option value="octal">Octal</option>
+                <option value="hexaDecimal">Hexa Decimal</option>
+            </select>
+            <input name="firstDigit" class="firstDigit" id="firstDigit">
+            <div class="swapBtn">
+                <button id="btn">Swap</button>
+                <button id="btnBtn">Resset</button>
+            </div>
+            <div class="systemTwo">
+            <h3>Base2:</h3>
+            <select id="digit_two">
+                <option value="binary">Binary</option>
+                <option value="decimal" selected>Decimal</option>
+                <option value="octal">Octal</option>
+                <option value="hexaDecimal">HexaDecimal</option>
+            </select>
+            <input name="secondDigit" class="secondDigit" id="secondDigit" value="0">
+        </div>
+        </div>
+    </div>
+    <footer>Created by: Puspalata Rout</footer>
+    <script src="index.js"></script>
+</body>
+</html>

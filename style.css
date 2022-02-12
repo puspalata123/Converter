@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    /* background-color: aqua; */
+    text-align: center;
+    background-image: url('image/background9.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+h1{
+    color: aqua;
+    font-size: 50px;
+    border-bottom: 2px solid;
+}
+h3{
+ color:chartreuse;
+ font-size: 30px;
+ text-align: center;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color:rgb(245, 143, 9);
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+#btn,
+#btnBtn{
+    background-color:rgb(138, 106, 243);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.systemOne,
+.systemTwo{
+    padding: 38px 0px 10px 0px;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.system select{
+    padding: 10px 20px 10px 10px;
+    appearance:initial;
+    border: 5px solid whitesmoke;
+    font-size: 55px;
+    background-color: gold;
+
+}
+.system input{
+    border: 0;
+    background: white;
+    font-size: 30px;
+    text-align: right;
+}
+#digit_one,
+#firstDigit,
+#digit_two,
+#secondDigit{
+    background-color: rgb(255, 255, 128);
+    color: rgb(49, 14, 243);
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid antiquewhite;
+}
+.swapBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding:10px;
+}
+#btn,
+#btnBtn{
+    color: rgb(9, 13, 241);
+    padding: 0 14px;
+    font-size: 28px;
+    border: 3px solid rgb(233, 236, 8);
+}
+#btn:hover{
+    background-color: gold;
+}
+#btnBtn:hover{
+    background-color: darkgoldenrod;
+}
+footer{
+    color: rgb(231, 184, 123);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+select:focus,input:focus,button:focus{
+    outline: 0;
+}
+@media screen and (max-width:600px){
+    /* .system input{
+        width: 200px;
+    } */
+    body{
+        background-color: rgb(111, 12, 240);
+    }
+}
